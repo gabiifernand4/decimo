@@ -21,10 +21,15 @@ header img{
 .featuredConcept-container img{
     width: 180px;
 }
-.PopulateConcept img{ 
+ .populateConcept {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .Conceptosrecientes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
 
-}
 
-    
 
 
